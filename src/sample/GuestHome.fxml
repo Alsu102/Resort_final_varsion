@@ -56,7 +56,7 @@
             <Font size="26.0" />
          </font>
       </Button>
-      <Text fill="WHITE" layoutX="459.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Your Services">
+      <Text fill="WHITE" layoutX="459.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Your Services ">
          <font>
             <Font size="37.0" />
          </font>
