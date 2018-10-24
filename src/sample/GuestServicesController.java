@@ -1,4 +1,5 @@
 package sample;
+//test comment before branch 4:17PM Wed
 
 import javafx.event.ActionEvent;
 import javafx.event.Event;
@@ -9,6 +10,7 @@ import javafx.scene.control.Tab;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.text.Text;
 
 public class GuestServicesController {
 
@@ -21,17 +23,24 @@ public class GuestServicesController {
   public RadioButton ifTv;
   public RadioButton ifInternet;
   public RadioButton IfOther;
-  
+
   
   //food servives
   public TextArea totalAmmount;
   public Button buttonSubmitOrder;
-  //I created quantity fields only for the forst item in each category
+  //I created quantity fields only for the first item in each category
   public TextField quantityCalmari;
   public TextField quantityVegetables;
   public TextField quantityChicken;
   public TextField quantityDeserts;
   public TextField roomNumber;
+  public Text ChickenPrice;
+  public Text tiramisuPrice;
+  public Text calmariPrice;
+  public Text mixedVegetablesPrice;
+  public Tab tabFoodServices;
+
+
 
 
   //housekeeping vars
@@ -46,6 +55,10 @@ public class GuestServicesController {
   public CheckBox cleanRoom;
   public CheckBox makeBed;
   public TextField textOtherReqs;
+  public TextField totalAmount;
+  public Button buttonSubmitRequestHousekeeping;
+  public Tab tabHousekeepingServices;
+
 
 
   //maintanance request tub
@@ -60,8 +73,6 @@ public class GuestServicesController {
 
   
   //food services functions
-  public void getTotal(MouseEvent mouseEvent) {
-  }
 
   public void submitOrder(ActionEvent actionEvent) {
   }
@@ -73,6 +84,15 @@ public class GuestServicesController {
   }
 
   public void getOtherHouseKeppingReq(ActionEvent actionEvent) {
+  }
+
+  public void getTotalFood(ActionEvent actionEvent) {
+  }
+
+  public void getTabHousekeeping(Event event) {
+  }
+
+  public void getTabFoodServices(Event event) {
   }
 
   //housekeeping functions
