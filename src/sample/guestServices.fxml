@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.chart.*?>
 <?import java.lang.*?>
@@ -70,6 +71,11 @@
                                     <Font size="20.0" />
                                  </font>
                               </RadioButton>
+                              <ImageView fx:id="backButton1" fitHeight="94.0" fitWidth="83.0" layoutX="26.0" layoutY="677.0" onMouseClicked="#getBackHome" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@resources/back_button.png" />
+                                 </image>
+                              </ImageView>
                     </children>
                   </AnchorPane>
                 </children>
@@ -306,6 +312,11 @@
                            </font>
                         </TextField>
                         <TextField fx:id="totalAmount" layoutX="852.0" layoutY="679.0" onAction="#getTotalFood" prefHeight="38.0" prefWidth="146.0" promptText="Total" />
+                        <ImageView fx:id="backButton" fitHeight="94.0" fitWidth="83.0" layoutX="6.0" layoutY="676.0" onMouseClicked="#getBackHome" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@resources/back_button.png" />
+                           </image>
+                        </ImageView>
                 </children>
               </AnchorPane>
             </content>
@@ -415,6 +426,12 @@
                               </TextField>
                            </children>
                         </Pane>
+                        <ImageView fitHeight="84.0" fitWidth="109.0" layoutX="1.0" layoutY="682.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fx:id="backButton" fitHeight="94.0" fitWidth="83.0" layoutX="14.0" layoutY="682.0" onMouseClicked="#getBackHome" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@resources/back_button.png" />
+                           </image>
+                        </ImageView>
                 </children>
               </AnchorPane>
             </content>
