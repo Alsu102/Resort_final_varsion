@@ -94,7 +94,6 @@ public class GuestServicesController {
 
   public void getTabFoodServices(Event event) {
   }
-
   public void getBackHome(MouseEvent mouseEvent) {
 
   }
